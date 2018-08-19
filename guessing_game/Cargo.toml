@@ -1,0 +1,9 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+authors = ["ink404 <kirkpatrickian6@gmail.com>"]
+
+[dependencies]
+# The number 0.3.14 is actually shorthand for ^0.3.14,
+# which means “any version that has a public API compatible with version 0.3.14.” 
+rand = "0.3.14"
